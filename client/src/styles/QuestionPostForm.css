@@ -1,0 +1,55 @@
+.question-form {
+  background: var(--bg-primary);
+  padding: var(--space-lg);
+  border-radius: var(--border-radius);
+  box-shadow: var(--shadow-md);
+  font-family: var(--font-sans);
+  color: var(--text-primary);
+  max-width: 700px;
+  margin: auto;
+  margin-top: 2rem;
+}
+
+.question-form h2 {
+  font-size: var(--font-size-xl);
+  margin-bottom: var(--space-md);
+}
+
+.question-form input[type='text'] {
+  width: 100%;
+  padding: var(--space-sm);
+  font-size: var(--font-size-base);
+  margin-bottom: var(--space-md);
+  border: 1px solid var(--color-gray);
+  border-radius: var(--border-radius);
+}
+
+.question-form .ql-container {
+  min-height: 200px;
+  margin-bottom: var(--space-md);
+}
+
+.question-form button {
+  background-color: var(--color-primary);
+  color: var(--text-on-primary);
+  border: none;
+  padding: var(--space-sm) var(--space-md);
+  border-radius: var(--border-radius);
+  cursor: pointer;
+  font-size: var(--font-size-base);
+  transition: background-color var(--transition-fast);
+}
+
+.question-form button:hover {
+  background-color: var(--color-primary-dark);
+}
+
+.success-text {
+  color: var(--color-success);
+  margin-top: var(--space-sm);
+}
+
+.error-text {
+  color: var(--color-danger);
+  margin-top: var(--space-sm);
+}
